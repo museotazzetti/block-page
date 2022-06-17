@@ -1,0 +1,69 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #006000;
+}
+main {
+    width: 90%;
+    border: 10px solid crimson;
+    border-radius: 5px;
+    background-color: #47e047;
+    margin: auto;
+}
+#block-warning {
+    width: 100%;
+    padding: 1rem 0;
+}
+h1 {
+    font-size: 2.5em;
+}
+#block-warning p {
+    font-size: 1.5em;
+}
+#report-problem {
+    width: 100%;
+    margin: auto;
+    padding: 0 0 1em 0;
+}
+#report-problem p {
+    font-size: 1.4em;
+    margin-top: 0;
+}
+#report-problem a {
+    width: 20%;
+    margin: 0.5em auto;
+    background-color: orange;
+    color: black;
+    display: block;
+    padding: 8px 10px 10px 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-radius: 8px;
+}
+#report-problem a:hover {
+    background-color: rgb(255, 215, 140);
+}
+footer {
+    color: white;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+.fa-ban {
+    font-size: 4em;
+}
+.fa-envelope, .fa-circle-info {
+    margin-right: 5px;
+}
+@media (min-width: 430px) and (max-width: 890px) {
+    main {
+        width: 95%;
+    }
+    #report-problem a {
+        width: 40%;
+    }
+}
+@media (max-width: 430px) {
+    #report-problem a {
+        width: 70%;
+    }
+}
